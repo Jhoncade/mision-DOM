@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/549ee1c2cf.js" crossorigin="anonymous"></script>
+    <script defer src="../js/registro.js"></script>
+    <link rel="stylesheet" href="../css/styleregistro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="fondo">
+        <div class="parte1">
+            
+        </div>
+        <div class="parte2">
+        <header>
+            <a href="../index.html" class="flecha"><i class="fa-solid fa-arrow-left"></i></a>
+            <h2 class="titulo">Registro de Personas</h2>
+        </header>
+        <form action="" method="get" id="formulario">
+        <main>
+            
+            <section class="seccion1">
+                <div class="parte1_1">
+                    <label for="nombre" class="label1">Nombres</label>
+                    <label for="apellido" class="label2">Apellidos</label>
+                </div>
+                <div class="parte2_1">
+                    <input type="text" id="nombre">
+                    <input type="text" id="apellido">
+                </div>
+            
+            </section>
+            <section class="seccion2">
+                <div class="parte1_2">
+                    <label for="area" class="label3">Area</label>
+                    <label for="usuario" class="label4">Usuario</label>
+                    <label for="edad" class="label5">Edad</label>
+                </div>
+                <div class="parte2_2">
+                <input type="text" id="area">
+                <input type="text" id="usuario">
+                <input type="number" id="edad">
+                </div>
+                
+                
+            </section>
+            <section class="seccion3">
+                <div class="parte1_3">
+                    <label for="direccion" class="label6">Direccion</label>
+                </div>
+                <div class="parte2_3">
+                    <input type="text" id="direccion">
+                </div>
+            </section>
+            <section class="seccion4">
+                <div class="parte1_4">
+                    <label for="email" class="label7">Email</label>
+                </div>
+                <div class="parte2_4">
+                    <input type="email" id="email">
+                </div>
+            </section>
+            <button class="enviar" onclick="captura()">Enviar</button>
+        </main>
+    </form>
+    </div>
+</body>
+</html>

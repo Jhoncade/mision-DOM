@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body,html{
+    height: 100%;
+}
+.fondo{
+    height: 100%;
+    display: flex;
+}
+.parte1{
+    height: 100%;
+    width: 20%;
+    background-color: red;
+}
+.parte2{
+    margin: 30px;
+    width: 100%;
+}
+header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.titulo{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 450px;
+}
+.creacion{
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    border-radius: 12px;
+    margin-right: 25px;
+}
+.creacion:hover{
+    background-color: black;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.seccion1{
+    margin-top: 40px;
+}
+.buscar{
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: 7px;
+}
+#buscador{
+    background-color: rgba(163, 170, 177, 0.363);
+    border: 1px solid gray;
+    border-radius: 13px;
+    height: 30px;
+    width: 350px;
+}
+.info{
+    margin-top: 40px;
+    width: 90%;
+}
+.titulos{
+    font-weight: 700;
+    font-size: 12px;
+    background-color: rgba(189, 195, 199, 0.363);
+    height: 20px;
+    text-align: center;
+    
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+}
+tr{
+    border: 1px solid black
+}

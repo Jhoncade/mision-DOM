@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body,html{
+    height: 100%;
+}
+.fondo{
+    height: 100%;
+    display: flex;
+}
+.parte1{
+    height: 100%;
+    width: 20%;
+    background-color: red;
+}
+.parte2{
+    margin: 30px;
+    width: 100%;
+}
+header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flecha{
+    color: red;
+    font-size: 20px;
+}
+.titulo{
+    font-size: 25px;
+    margin-right: 450px;
+}
+main{
+    margin: 0 180px;
+}
+label{
+    font-size: 15px;
+    font-weight: 700;
+}
+input{
+    background-color: rgba(163, 170, 177, 0.363);
+    border: 1px solid rgb(192, 20, 192);
+    height: 35px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.seccion1{
+    margin-top: 80px;
+}
+.parte1_1{
+    display: flex;
+    justify-content: space-between;
+}
+.label2{
+    margin-right: 250px;
+}
+.parte2_1{
+    display: flex;
+    justify-content: space-between;
+}
+#nombre{
+    width: 320px;
+}
+#apellido{
+    width: 320px;
+}
+.seccion2{
+    margin-top: 40px;
+}
+.parte1_2{
+    display: flex;
+    justify-content: space-between;
+}
+.label4{
+    margin-left:20px; 
+}
+.label5{
+    margin-right: 190px;
+}
+.parte2_2{
+    display: flex;
+    justify-content: space-between;
+}
+#area{
+    width: 230px;
+}
+#usuario{
+    width: 230px;
+}
+#edad{
+    width: 230px;
+}
+.seccion3{
+    margin-top: 40px;
+}
+#direccion{
+    width: 100%;
+}
+.seccion4{
+    margin-top: 40px;
+}
+#email{
+    width: 100%;
+}
+.enviar{
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 240px;
+}
+.enviar:hover{
+    background-color: black;
+    cursor: pointer;
+    transition: 0.8s;
+}
